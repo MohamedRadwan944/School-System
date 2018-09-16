@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>تقديم الطلاب</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div id="nav">
+    <div id=logo>	
+    </div>
+    <div id="list">
+    	<ul>
+    		<li><a href="../index.html">الرئيسية</a></li>
+    		<li><a href="services.html">خدماتنا</a></li>
+            <li><a href="signin.html">تسجيل الدخول</a></li>
+            <li><a class="selected" href="register.html">تقديم الطلاب</a></li>
+    		<li><a href="contactus.html">اتصل بنا</a></li>
+    	</ul>
+    </div>
+    </div>
+    <div id="register">
+    	<form >
+    		
+    		<fieldset id ="parentcontact" >
+    			<legend>بيانات الوالد</legend>
+    			<label for="parentname">الاسم رباعي</label><input id="parentname" type="text" placeholder="من فضلك ادخل اسمك رباعي" required="yes" name="parentname"><br>
+    			<label>رقم الهوية&nbsp;&nbsp;</label><input type="tel" placeholder="من فضلك ادخل رقم هويتك" required="yes" pattern="[0-9]{14}" name="parentid"><br>
+    			<label>رقم الجوال&nbsp;&nbsp;</label><input type="tel" placeholder="من فضلك ادخل رقم الجوالك" required="yes" name="parenttelphon"><br>
+    			<label>الايميل &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input   type="email" placeholder="من فضلك ادخل ايميلك" required="yes" name="parentemail"><br>
+    			<label>المؤهل&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input    type="text" placeholder="من فضلك ادخل مؤهلك" required="yes" name="parentlearncertifict"><br>
+    			<label>الوظيفة&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input  type="text" placeholder="من فضلك ادخل وظيفتك" required="yes" name="parentjob"><br>
+    		</fieldset>
+
+    		<fieldset id="studentcontact">
+            	<legend>بيانات الطالب </legend>
+                <label>الاسم رباعي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" placeholder="من فضلك ادخل اسمك رباعي" required="yes" name="name" ><br>
+    			<label>رقم الهوية&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="tel" placeholder="من فضلك ادخل رقم هويتك" required="yes" pattern="[0-9]{14}" name="id"><br>
+    			<label>رقم الجوال&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="tel" placeholder="من فضلك ادخل رقم الجوالك" required="yes" name="telphon"><br>
+    			<label>الايميل&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" placeholder="من فضلك ادخل ايميلك" required="yes" name="email"><br>
+    			<label>العنوان&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" placeholder="من فضلك ادخل عنوانك " required="yes" name="addresse"><br>
+                <label>محل الميلاد&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="region" placeholder="من فضلك ادخل محل ميلادك" required="yes"  ><br>
+                <label>تاريخ الميلاد&nbsp;&nbsp;&nbsp;</label><input type="date" name="dateofbirth" required="yes" > <br>
+                <label>الديانة</label> 
+                <label for="muslium">مسلم</label> <input id="muslium" type="radio" name="rela" value="مسلم" checked="yes">
+                <label for="cristine">مسيحي</label> <input id="cristine" type="radio" name="rela" value="مسيحي"><br>
+    			<label>النوع</label>
+                <label for="male"> ذكر&nbsp;&nbsp;&nbsp;</label>
+                <input id="male" type="radio" name="gender" value="ذكر"  checked="yes">
+                <label for="female">&nbsp;&nbsp;&nbsp;انثي</label> <input id="female" type="radio" name="gender" value="انثي"><br>
+    			<label>المرحلة&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" name="period" min="1" max="12" required="yes" ><br>
+    		    <label>الجنسية&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="nationality">
+                    <option>السعودية</option>
+                    <option>مصر</option>
+                    <option></option>
+                    <option></option>         
+                </select><br>
+                <input type="submit" name="submit" value="ارسال" id="submits">
+            </fieldset>
+             
+    	</form>
+    </div>
+ <div id="footer">
+        <div id="rightfooter">
+        <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="signin.html">تسجيل الدخول</a></li>
+            <li><a href="register.html">تقديم الطلاب</a></li>
+            <li><a href="contactus.html">اتصل بنا</a></li>
+        </ul>
+        </div>
+        <div id ="leftfooter">
+            <ul>
+                <li><img src="../social links/facebook2.png"></li>
+                <li><img src="../social links/youtube2.png"></li>
+                <li><img src="../social links/Twitter2.png"></li>
+            </ul>
+            
+        </div>
+    </div>
+   
+</body>
+</html>

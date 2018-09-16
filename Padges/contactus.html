@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>اتصل بنا</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div id="nav">
+    <div id=logo>	
+    </div>
+    <div id="list">
+    	<ul>
+    		<li><a href="../index.html">الرئيسية</a></li>
+    		<li><a href="services.html">خدماتنا</a></li>
+            <li><a href="signin.html">تسجيل الدخول</a></li>
+            <li><a href="register.html">تقديم الطلاب</a></li>
+    		<li><a class="selected" href="contactus.html">اتصل بنا</a></li>
+    	</ul>
+    </div>
+    </div>
+    <div id="map">
+    </div>
+
+    <div id ="location">
+        <div id="phone">
+
+                <img  src="../social links/phone.png">
+                <p> +010111111111 </p>
+        </div>
+        <div id="addresse">
+            
+                <img  src="../social links/location.png">
+                <p> street in town at country </p>
+        </div>
+        <div id="email">
+
+                <img  src="../social links/mail.png">
+                <p> Example@Example.com </p>
+        </div>
+    </div>
+
+    <div id="contactus">
+    <form >
+        <label>الاسم رباعي</label><input type="text" name="name" required="yes" placeholder="من فضلك ادخل اسمك رباعي"><br>
+        <label>رقم الجوال&nbsp;&nbsp;</label><input type="tel" name="phone" required="yes" placeholder="من فضلك ادخل رقم جوالك"><br>
+        <label>الايميل&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" name="email" required="yes" placeholder="من فضلك ادخل ايميلك"><br>
+        <label>الموضوع&nbsp;&nbsp;</label>
+        <input type="text" name="subject" required="yes" placeholder="من فضلك ادخل موضوع شكوك"><br>
+        <label>التفاصيل&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea id="tad" name="detials" rows="5" cols="35"></textarea><br>
+        <input type="submit" name="submit" value="ارسال" id="signins"> 
+    </form>
+    </div>
+
+    <div id="footer">
+        <div id="rightfooter">
+        <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="signin.html">تسجيل الدخول</a></li>
+            <li><a href="register.html">تقديم الطلاب</a></li>
+            <li><a href="contactus.html">اتصل بنا</a></li>
+        </ul>
+        </div>
+        <div id ="leftfooter">
+            <ul>
+                <li><img src="../social links/facebook2.png"></li>
+                <li><img src="../social links/youtube2.png"></li>
+                <li><img src="../social links/Twitter2.png"></li>
+            </ul>
+            
+        </div>
+    </div>
+    <script type="text/javascript">
+        function mymap() {
+            var mapprop = {
+                center:new google.maps.LatLng(51.508742,-0.120850),
+                zoom:5,
+            };
+            var map=new google.maps.Map(document.getElementById("map"),mapprop);
+           //         AIzaSyBdnME-yup6nZxTqliRBXt_Mxa9mEFvtMk
+             var marker = new google.maps.Marker({
+            position:new google.maps.LatLng(51.508742,-0.120850) ,
+            animation: google.maps.Animation.BOUNCE
+            });
+  marker.setMap(map);
+
+            // body...
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdnME-yup6nZxTqliRBXt_Mxa9mEFvtMk&callback=mymap"></script>
+</body>
