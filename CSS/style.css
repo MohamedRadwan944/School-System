@@ -1,0 +1,406 @@
+body , html {
+	margin: 0 ;
+}
+#nav{
+	height: 80px; 
+	width: 100%;
+	background-color: #fff;
+	border-bottom: outset;
+}
+/*this id tag logo*/
+#logo{
+
+}
+/*this is menu*/
+#list{
+	width: 950px;
+	right: 250px;
+}
+#list ul{
+
+	float: right;
+	direction: rtl;
+	list-style-type: none;
+}
+#list ul li{
+display: inline-block;
+padding: 15px 0;
+margin: 0 10px;
+}
+#list ul li a{
+text-decoration: none;
+font-weight: bold ;
+font-size: 18px;
+color: #000;
+padding:0 30px; 
+
+}
+#list ul li a:hover , #list ul li a.selected{
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	background-color: #cad8e0;
+	padding:15px 45px;
+}
+#footer{
+	width: 100%;
+	height: 90px;
+	clear: both;
+	background-color: #333333;
+}
+#rightfooter{
+	float: right;
+}
+#rightfooter ul{
+	direction: rtl;
+	list-style-type: none;
+}
+#rightfooter ul li{
+	display: inline-block;
+	padding: 20px 10px ;
+}
+#rightfooter ul li a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+} 
+#leftfooter ul{
+	list-style-type: none;
+	padding: 20px 10px;
+}
+#leftfooter ul li{
+	display: inline-block;
+}
+#leftfooter ul li img {
+	border-radius: 25px;
+	background-color: #fff;
+}
+
+/*service page*/
+#service{
+	padding-top: 15px;
+	padding-right: 20px;
+
+}
+#service ul{
+	float: right;
+	direction: rtl;
+	list-style-type: none;
+}
+#service ul li{
+margin-bottom: 10px;
+display: block;
+width: 200px;
+text-align: center;
+border-left: solid 5px;
+padding-top: 5px;
+}
+#service-1{
+	text-align: center;
+	float: right;
+	direction: rtl;
+	margin-top: 15px;
+	width: 900px;
+	height: 725px; 
+	background-color: #3c3c3c;
+}
+#service-2{
+	text-align: center;
+	float: right;
+	direction: rtl;
+	margin-top: 15px;
+	display: none;
+	width: 900px;
+	height: 725px; 
+	background-color: #3c3c3c;
+}
+#service-3{
+	float: right;
+	direction: rtl;
+	margin-top: 15px;
+	text-align: center;
+	display: none;
+	width: 900px;
+	height: 725px; 
+	background-color: #3c3c3c;
+}
+#service-4{
+	float: right;
+	direction: rtl;
+	margin-top: 15px;
+	text-align: center;
+	display: none;
+	width: 900px;
+	height: 725px; 
+	background-color: #3c3c3c;
+}
+#service ul li:first-child{
+	color: #3a2e57;
+}
+#service ul li:first-child:hover {
+	margin-right: 20px;
+	background-color: #3a2e57;
+	color: #fff;
+}
+#service ul li:nth-child(2){
+	color: #bc2830;
+}
+#service ul li:nth-child(2):hover {
+	margin-right: 20px;
+	background-color: #bc2830;
+	color: #fff;
+}
+#service ul li:nth-child(3) {
+	color: #e8b426;
+}
+#service ul li:nth-child(3):hover {
+	margin-right: 20px;
+	background-color: #e8b426;
+	color: #fff;
+}
+#service ul li:last-child{
+	color: #cf5826;
+}
+#service ul li:last-child:hover {
+	margin-right: 20px;
+	background-color: #cf5826;
+	color: #fff;
+}
+/* Register Student Page*/
+#register{
+	width: 1200px;
+	height: 1200px;
+	
+	margin: 0 auto;
+}
+#parentcontact {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: dashed 5px #d9dde0;
+	direction: rtl;
+	width: 600px;
+	float: right;
+	margin-right: 400px;
+}
+#studentcontact{
+	top: 900px;
+	width: 600px;
+	float: right;
+	margin-right: 400px;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	direction: rtl;
+	border-bottom : dashed 5px #d9dde0;
+}
+input{
+	border-radius: 25px;
+	padding: 5px 5px 5px 100px;
+	margin:10px 25px 10px 0px;
+}
+
+legend{
+	font-size: 22px;
+	font-weight: bold;
+	padding: 0 15px;
+	padding-top: 20px;
+	border-bottom: dashed 3px #d9dde0;
+}
+label{
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 70px;
+}
+select {
+	border-top: none;
+	border-right: none;
+	border-left:none;
+	border-bottom: 3px solid;
+	padding: 5px 5px 5px 100px;
+}
+option{
+	padding: 10px 0;
+
+}
+#submits{
+	border-radius: 25px;
+	padding: 5px 20px ;
+	background-color: #000;
+	color: #fff;
+	float: left;
+}
+/* sign in page */
+#signdiv{
+	width: 100%;
+	height: 600px;
+}
+#signin{
+	margin-top:50px;
+	padding:  20px 0;
+	float: right;
+	margin-right: 400px;
+	direction: rtl;
+	width: 500px;
+	height: 450px;
+	border:outset 5px;
+}
+.signlabel{
+	color: #A9C6E8;
+}
+.signimg{
+	margin-right: 150px;
+}
+#signins{
+	border-radius: 25px;
+	padding: 10px 25px ;
+	background-color: #2D50A2;
+	color: #fff;
+	margin-top: 50px;
+	margin-right: 200px;
+}
+/* contactus page*/
+#map{
+	width: 100%;
+	height: 400px;
+	background-color: #c3c3c3;
+}
+#location{
+	width: 100%;
+	height: 250px;
+	clear: both;
+}
+#phone{
+	padding-top:  70px;
+	text-align: center;
+	width: 450px;
+	height: 200px;
+	display: inline-block;
+}
+#addresse{
+	padding-top:  70px;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+#email{
+	padding-top:  70px;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+#contactus{
+	width: 600px;
+	float: right;
+	direction: rtl;
+	margin-right: 400px;
+	margin-top: 50px;
+}
+#tad{
+	border-radius: 25px;
+}
+
+/*studentarea page*/
+/*#studentarea{
+	width: 250px;
+	margin-top: 10px;
+	margin-right: 50px;
+	float: right;
+	direction: rtl;
+}
+#studentarea ul{
+list-style-type: none;
+}
+#studentarea ul li{
+	padding: 20px 0 ;
+	font-size: 18px;
+	font-weight: bold;
+	border-left : solid 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#studentarea ul li:first-child {
+   background-color:#bc2830; 
+   color:#fff;
+}
+#studentarea ul li:nth-child(2) {
+   background-color:#e8b421; 
+   color:#fff;
+
+}
+#studentarea ul li:nth-child(3) {
+   background-color:#cf5826; 
+   color:#fff;
+}
+#studentservice1 {
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 50px;
+	background-color: #c3c3c3;
+	float: right;
+	direction: rtl;
+	height: 500px;
+}
+#studentservice2 {
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 50px;
+	background-color: #c3c3c3;
+	float: right;
+	direction: rtl;
+	height: 500px;
+	display: none;
+}
+#studentservice3 {
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 50px;
+	background-color: #c3c3c3;
+	float: right;
+	direction: rtl;
+	height: 500px;
+	display: none;
+}
+#add{
+  position: relative;
+  width: 32px;
+  display: inline-block;
+  height: 32px;
+  z-index: 1;
+}
+#add input[type="file"]{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+  position: absolute;
+}
+#add input[type="image"]{
+  position: absolute;
+  border-radius: 10px;
+}
+#massager{
+	direction: rtl;
+	margin-top: 440px;
+}
+#massager>input {
+	padding-top: 5px;
+	padding-left:  350px;
+}
+#send>input{
+	margin-top: -40px;
+	margin-left: 30px;
+	padding: 5px 25px;
+	border-radius: 25px;
+	float: left; 
+	background-color: #000;
+	color: #fff;
+}
+.astudent{
+	text-decoration: none;
+	color: #fff;
+}*/
